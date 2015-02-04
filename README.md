@@ -14,7 +14,7 @@ Tieto súbory stačí uploadnuť na hosting, ktorý podporuje PHP:
   - interaktívny kvíz (vytvorený v [HotPotatoes](https://hotpot.uvic.ca/)),
   - odkaz na predpripravený program (so žltým pozadím) a
   - možnosť komentovať cez Facebook.
-- **inc.funcs.php** - Odtiaľto sa načítavajú spoločné časti, ktoré sú v každej téme rovnaké. Napríklad menu, záhlavie, alebo päta. Vkladá sa pomocou kódu `<?php require_once "inc.funcs.php"; ?>` a obsah z neho sa načítava napr. cez `echo $head;`. Čo zmeníte v tomto súbore, zmení sa vo všetkých otatných. Tu treba zmeniť sledovací kód v `$googleAnalytics` (tu *UA-6480797-1*) a ID aplikácie v `$FBcommentsJSSDK` (tu *110770745644739*).
+- **inc.funcs.php** - Odtiaľto sa načítavajú spoločné časti, ktoré sú v každej téme rovnaké. Napríklad menu, záhlavie, alebo päta. Vkladá sa pomocou kódu `<?php require_once "inc.funcs.php"; ?>` a obsah z neho sa načítava napr. cez `echo $head;`. Čo zmeníte v tomto súbore, zmení sa vo všetkých otatných. Zmeňte sledovací kód v `$googleAnalytics` (tu *UA-6480797-1*) a ID aplikácie v `$FBcommentsJSSDK` (tu *110770745644739*) na vaše vlastné údaje.
 - **komentare.php** - Tu sú zhrnuté pravidlá, ktorými sa musí riadiť každý, kto chce komentovať cez Facebook pod témou.
 - **navod.php** - Jednoduchý návod, ktorý obsahuje základné informácie o možnostiach poznámok.
 - **style.css** - Vzhľad pre všetky témy.
